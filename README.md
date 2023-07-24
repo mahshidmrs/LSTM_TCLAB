@@ -1,3 +1,6 @@
-# LSTM_TCLAB
+# LSTM_TCLAB_Advanced-Deep-Learning
+**addvantage and disadvantage of adding layer in LSTM**
 
-Advanced Deep Learning Project
+The same uncertainty about the amount also exists for the number of hidden layers to use. Again, the ideal number for any given use case will be different and is best to be decided by running different models against each other. Generally, 2 layers have shown to be enough to detect more complex features. More layers can be better for improving accuracy but also harder to train. 1 hidden layer work with simple problems, and two are enough to find reasonably complex features. source:https://towardsdatascience.com/
+
+As much as one hidden layer is normally sufficient for the large majority of problems, there are instances where having several layers would be ideal. Problems like language translation, building generative chatbots etc are good cases where the deeper you go the more likely for the performance and accuracy to be improved using Sequence-to-Sequence recurrent neural networks. To determine the number of hidden layers in such problems is a trial and test approach where you may add layers depending on the output. source: https://www.linkedin.com/pulse/generative-chatbots-how-many-lstm-layers-should-you
